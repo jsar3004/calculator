@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div class="box">
+     <div class="dis">
+        <input type="text" id="ans" class="num" size="8"><br>
+     </div>
+     <button  onclick="clr()"> clr</button>
+     <button value="/" onclick="display('/')"> /</button>
+     <button  value="*" onclick="display('*')"> *</button>
+     <button  value="-" onclick="display('-')"> -</button>
+     <button value="7" onclick="display('7')"> 7</button>
+     <button value="8" onclick="display('8')"  >8</button>
+     <button value="9" onclick="display('9')"  >9</button>
+     <button value="+" onclick="display('+')" class="span-row">+</button> 
+     <button value="4" onclick="display('4')"  >4</button>
+     <button onclick="display('5')"  >5</button>
+     <button onclick="display('6')"  >6</button> 
+     <button onclick="display('1')"  >1</button>
+     <button onclick="display('2')"  >2</button>
+     <button onclick="display('3')"  >3</button>
+     <button onclick="evaluat()" class="span-row" >=</button>
+     <button onclick="display('0')" class="span-column">0</button>
+     <button onclick="display('.')" >.</button>
+    </div>
+</body>
+<script src="index.js">
+</script>
+</html>
